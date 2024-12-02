@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+    <h2>Amazing Images</h2>
+    <ul id="images">
+        <li><img id="jill" width="220px" src="./imgs/pexels-jill-wellington-1638660-39853.jpg" alt=""></li>
+        <li><img id="minan" width="220px" src="./imgs/pexels-minan1398-1066176.jpg" alt=""></li>
+        <li><img id="sebastian" width="220px" src="./imgs/pexels-sebastian-214574.jpg" alt=""></li>
+        <li><img id="thatguy" width="220px" src="./imgs/pexels-thatguycraig000-1563356.jpg" alt=""></li>
+        <li id="google" style="color: aliceblue;"><a href="https://www.google.com">Google</a></li>
+    </ul>
+</body>
+<script>
+    // document.getElementById('jill').onclick=function(){alert("Cliked");}
+    //Syntex: addEventListener('eventName','function(e)/eventListener','false/true');  true:capturing false:bubling
+    // e(event object):In JavaScript, an event object is an object that contains information about an event that has occurred. This object is automatically passed as an argument to the event handler function when the event is triggered.
+    //type,timestamp, preventDefault, target, toElement, srcElement
+    // document.getElementById('jill').addEventListener('mouseenter',(e)=>{alert("jill Clicked"); console.log(e.type);})
+
+    // document.getElementById('google').addEventListener('click',(e)=>{
+    //     console.log("Google Clicked");
+    //     // e.preventDefault();
+    //     })
+
+    // document.querySelector('#images').addEventListener('click',function(e){
+    //     const removeIt=e.target.parentNode;
+    //     console.log(removeIt);
+    //     removeIt.remove();
+    // })
+
+
+</script>
+</html>

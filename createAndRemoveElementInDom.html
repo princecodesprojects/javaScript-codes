@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Elements</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+    <script>
+        addLang("JAva");
+         function addLang(langName){
+            const li=document.createElement('li');
+            li.innerHTML=`${langName}`;
+           document.querySelector('.language').appendChild(li);
+         }
+
+         function addOptiLangu(langName){
+            const li=document.createElement('li');
+            //Use appendChild( ) in place of innerHTML
+            li.appendChild(document.createTextNode(langName));
+            document.querySelector('.language').appendChild(li);
+         }
+         addOptiLangu("Spring");
+
+         //Edit
+
+         const secondLang=document.querySelector('li:nth-child(2)');
+        //  secondLang.innerHTML="CPP";
+        const newLi=document.createElement('li');
+        newLi.textContent="C++";
+        secondLang.replaceWith(newLi);
+
+        const firstLAng=document.querySelector('li:first-Child');
+        firstLAng.outerHTML="<li>TypeScript</li>";
+
+        //Remove
+
+        const lastLang=document.querySelector('li:last-child');
+        lastLang.remove();
+    </script>
+</html>
