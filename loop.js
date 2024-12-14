@@ -110,3 +110,7 @@
 // coding.forEach((items)=>{
 //     console.log(items.edition);
 // })
+
+let arr=new Array();
+arr[0]=1
+console.log(arr.length)
