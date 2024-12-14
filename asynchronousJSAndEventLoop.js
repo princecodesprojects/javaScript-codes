@@ -3,21 +3,24 @@
 //     console.log("hey1");
 // },0)
 // console.log("hey2");
-// console.log("Promise");
+
+//Promise
+
 // const result=new Promise((resolve,reject)=>{
-//         if(1)
+//         if(0)
 //         {
 //             return resolve("Resolve ho gay");
 //         }else{
-//             return reject();
+//             return reject("Reject ho gaya");
 //         }
 // })
 
 // result.then(function(m){
 //     console.log(m);
 // })
-// .catch(function(){
-//     console.log("Reject ho gaya");
+// .catch(function(m){
+//     console.log(m+"catch");
+//     console.log("catch");
 // })
 
 //async-await
@@ -34,12 +37,12 @@
 
 // abcd();
 
-async function abcd(){
-    const raw=await fetch(`https://randomuser.me/api/`)
-    const data=await raw.json();
+// async function abcd(){
+//     const raw=await fetch(`https://randomuser.me/api/`)
+//     const data=await raw.json();
     
-        console.log(data);
+//         console.log(data);
 
-}
+// }
 
-abcd();
+// abcd();

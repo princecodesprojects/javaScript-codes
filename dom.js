@@ -1,11 +1,12 @@
 //alert("Hello");
-// let r=confirm("Hello");
+let r=confirm("Hello");
 
-// if(r==true){
-//     document.getElementById("h").innerHTML="Ok pressed";
-// }else{
-//     document.getElementById("h").innerHTML="Cancel pressed";
-// }
+if(r==true){
+    let ele=document.getElementById("h2");
+    ele.innerHTML="Ok pressed"
+}else{
+    document.getElementById("h2").innerHTML="Cancel pressed";
+}
 
 // console.log(r);
 

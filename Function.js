@@ -82,11 +82,11 @@
 
 //2. Map
 //it also returns array
-// let arr=[1,2,3,4,5];
-// //chaining
-// let nums=arr.map((val1)=>val1*val1).map((num)=>num+10).filter((n)=>n>=15);  
+let arr=[1,2,3,4,5];
+//chaining
+let nums=arr.map((val1)=>val1*val1).map((num)=>num+10).filter((n)=>n>=15);  
 
-// console.log(nums);
+console.log(nums);
 
 //3. Filter, 
 //It return array

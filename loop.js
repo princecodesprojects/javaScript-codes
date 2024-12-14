@@ -1,12 +1,12 @@
-//for loop
+//  1.for loop
 
 // for(let i=0;i<=5;i=i+1)
 //     {
 //         console.log(i)
 //     }
 
+///  2.while loop
 
-    ///while loop
 // let i=0; 
 
 // while(i<5)
@@ -15,15 +15,17 @@
 //         i++; 
 //     }
 
-    //do-while loop
-//   let i=0;
+
+//3.  do-while loop
+//    let i=0;
 //         do
 //         {
 //             console.log(i);
 //             i++; 
 //         }while(i<5)
 
-//for of loop for array
+// 4.for of loop for array
+
 //for of loop is used with iterable objects only
 
 // let tech=["html", "css","js","tailwind","java"];
@@ -43,7 +45,7 @@
 //         }
 
 
-//for in loop for Objects
+// 5.for in loop for Objects
 
 // let userDetails={
 //     firstName:"Prince",
@@ -72,11 +74,12 @@
 // map.set(4,"Four");
 // map.set(3,"Three");
 
-// for(let [key,value] of map)
+// for(let key of map)
 // {
 
-//     console.log(key+":-"+value);
+//     console.log(key[0]);
 // }
+//return each map
 
 //for in loop for objects
 
@@ -93,7 +96,7 @@
 
 // }
 
-//forEach  loop
+// 6.forEach  loop
 
 // let language=["c",'cpp',"java","JavaScript"];
 

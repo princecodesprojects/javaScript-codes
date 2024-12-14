@@ -13,11 +13,16 @@
 
 
 
-//console.log(a);
-// let a;
-//  a=10;
-// let b=`a`;
-// var c=30;
+console.log(c);
+//  
+// //  a=10;
+// // let b=`a`;
+
+{
+   var c=30;
+   let a;
+}
+
 
 // let a1=[1,2,3];
 // let a2=[4,5,6,...a1];
